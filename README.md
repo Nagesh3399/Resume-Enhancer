@@ -4,38 +4,50 @@ A user-friendly Streamlit-based web application designed to evaluate resumes aga
 
 🚀 **Features**
 Resume Evaluation: Analyze resumes against job descriptions and get detailed professional feedback.
+
 ATS Match Percentage: Evaluate the match percentage of the resume with the job description, including missing keywords and final recommendations.PDF to Image Conversion: Converts uploaded PDF resumes into an image format for processing.
+
 
 ## 🛠️ **Tech Stack**
 Python: Core language for backend logic and AI model interaction.
+
 Streamlit: Frontend for building an interactive web application.
+
 Pillow (PIL): For handling images.
+
 pdf2image: Converts PDF resumes into images.
+
 Google Generative AI (Gemini): Model for intelligent resume analysis.
 
 ## 📥 **Installation**
 Clone the repository:
 
-bash
 Copy code
+
 git clone https://github.com/your-repo/ats-resume-enhancer.git  
-cd ats-resume-enhancer  
+
 Install dependencies:
 
-bash
 Copy code
+
 pip install -r requirements.txt  
+
 Add your API key:
 
 Create a .env file in the root directory.
+
 Add your Gemini API key to the file:
+
 env
+
 Copy code
+
 Gemini_Key=YOUR_API_KEY  
 Run the application:
 
-bash
+
 Copy code
+
 streamlit run app.py  
 
 ## 🎯 **How to Use**
