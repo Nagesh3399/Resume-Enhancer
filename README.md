@@ -1,8 +1,10 @@
-### ATS Resume Enhancer
+# **ATS Resume Enhancer**
 
-A user-friendly Streamlit-based web application designed to evaluate resumes against job descriptions. It leverages Google's Generative AI (Gemini) to provide professional feedback, highlight strengths and weaknesses, and offer ATS (Applicant Tracking System) match percentages.
+A user-friendly Streamlit-based web application designed to evaluate resumes against job descriptions. 
+It leverages Google's Generative AI (Gemini) to provide professional feedback, highlight strengths and weaknesses, and offer ATS (Applicant Tracking System) match percentages.
 
-🚀 **Features**
+## 🚀 **Features**
+
 Resume Evaluation: Analyze resumes against job descriptions and get detailed professional feedback.
 
 ATS Match Percentage: Evaluate the match percentage of the resume with the job description, including missing keywords and final recommendations.PDF to Image Conversion: Converts uploaded PDF resumes into an image format for processing.
@@ -20,6 +22,7 @@ pdf2image: Converts PDF resumes into images.
 Google Generative AI (Gemini): Model for intelligent resume analysis.
 
 ## 📥 **Installation**
+
 Clone the repository:
 
 Copy code
